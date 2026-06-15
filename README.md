@@ -4,8 +4,8 @@ Official Terms of Service and Privacy Policy for the Leeseo Bot Discord applicat
 
 ## Contents
 
-- **[Terms of Service](./terms.md)** – User conduct rules, prohibition of exploits and RMT, account discipline policy
-- **[Privacy Policy](./privacy.md)** – Data collection, storage, user rights, and data deletion procedures
+- **[Terms of Service](./terms)** – User conduct rules, prohibition of exploits and RMT, account discipline policy
+- **[Privacy Policy](./privacy)** – Data collection, storage, user rights, and data deletion procedures
 
 ## Usage
 
