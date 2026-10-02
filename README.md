@@ -22,4 +22,4 @@ Last updated: **June 2026**
 
 ---
 
-**Leeseo Bot** – A K-pop card collecting Discord bot - [Support Server](https://discord.gg/CX964gWQ27)
+**Leeseo Bot** - A K-pop card collecting Discord bot | [Support Server](https://discord.gg/CX964gWQ27)
