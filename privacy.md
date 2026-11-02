@@ -1,110 +1,134 @@
 # Privacy Policy - Leeseo Bot
-
-**Last Updated:** June 2026
-
+ 
+**Last Updated:** November 2026
+ 
 ## 1. Introduction
-
-Leeseo Bot is committed to protecting your privacy. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data.
-
+ 
+Leeseo ("the Bot", "we", "us") is a Discord application for collecting digital trading cards (K-pop, anime, games and other categories), playing games and trading with other users. This Privacy Policy explains what information we collect, why we collect it, how long we keep it, and what rights you have.
+ 
+This policy covers the Discord bot and, where stated, our companion website (leeseobot.app). Leeseo is operated by an independent developer and is not affiliated with Discord Inc.
+ 
 ## 2. Information We Collect
-
-When you interact with Leeseo Bot, we automatically collect and store the following information:
-
-### 2.1 User Data
-- **Discord User ID:** Your unique Discord identifier
-- **Username:** Your Discord display name at the time of account creation
-- **Account Creation Date:** When you first interacted with the Bot
-- **In-Game Currency:** Your "Mango" balance
-- **User Preferences:** Language/locale selection (manually chosen by you) and customization settings
-
+ 
+### 2.1 Account Data
+ 
+When you first use the Bot, we create a game account with:
+ 
+- **Discord User ID**
+- **Username / display name** at the time of account creation (and when you update your profile)
+- **Account creation date**
+- **In-game currency and items:** your "Mango" balance, cards, boxes and other virtual items
+- **Preferences:** language, drop and shop category settings, notification settings and profile customization (for example equipped titles and favorite card)
 ### 2.2 Activity Data
-- **Transaction History:** Trading, purchasing, and economic interactions within the Bot
-- **Gameplay Data:** Cards collected, items obtained, game achievements
-- **Violation Records:** Data related to Terms of Service violations (for moderation purposes)
+ 
+- **Transaction history:** trades, purchases, gifts, market listings and other economic interactions inside the Bot
+- **Gameplay data:** cards collected, progress, quests, game results and achievements
+- **Usage and security records:** records needed to detect abuse, such as suspicious transfers or multiple-account behavior, based on the Bot's own transaction records
+- **Violation records:** warnings, blacklist entries and the reasons staff enter for them
+### 2.3 Text You Choose to Submit
+ 
+Some features let you write text that we save so it can be shown to you or other users, for example your **profile bio**, your **trading bio**, and content you submit through suggestion forms. This text is stored until you change or delete it, or request deletion of your account.
+ 
+### 2.4 Message Content
+ 
+Leeseo receives the content of messages sent in servers where it is added (Discord's Message Content intent). We use it only to:
+ 
+- run commands that start with the "ls" prefix or that mention the Bot; and
+- read answers during an active game round, such as the "guess" game, where several players type answers in the channel at the same time.
+All other messages are ignored. **We do not store the content of chat messages.** Game answers are checked in memory and discarded. Our internal command logs record only the command name, the user ID and the server, not the message text. The only free text we store is text you intentionally submit to be saved (see 2.3) and moderation reasons entered by staff.
+ 
+Message content is not shared with third parties, not used for advertising or profiling, and not used to train machine learning or artificial intelligence models.
+ 
+### 2.5 Purchases
+ 
+If you buy items or currency with real money, payment is handled by our payment provider **Mercado Pago and PayPal**. We do not receive or store your card number or full payment details. We keep a record of the purchase (order identifier, amount, item, date and your Discord ID) so we can deliver the items and handle support requests.
+ 
+### 2.6 Website (leeseobot.app)
 
-### 2.3 What We Do NOT Collect
-- **IP Addresses:** We do not collect or store your IP address
-- **Device Information:** We do not collect device identifiers or hardware information
-- **Location Data:** We do not collect geographic location data
+You can log in to our website with your Discord account. When you do, we receive your Discord ID, username and avatar, which we use to identify your game account and show it to you. We use a session cookie to keep you logged in. We do not store your IP address in our own database.
 
+We use third-party monitoring services (Cloudflare Analytics and Google Analytics) to keep the website and the Bot running and to detect errors. These services may process technical data, such as IP addresses and browser information, in their own logs for that purpose. We do not use this data for advertising.
+
+### 2.7 What We Do NOT Collect
+ 
+- Your Discord presence, online status or activities. The Bot does not request Discord's Presence intent.
+- Your Discord server member lists. The Bot does not request Discord's Server Members intent.
+- Device identifiers, hardware information or precise location.
+- Your IP address through the Bot itself.
+- Private messages between other users, or attachments sent by other users.
 ## 3. How We Use Your Information
-
-We use collected data for the following purposes:
-
-- **Service Delivery:** Maintain your game account, progress, and in-game economy
-- **Account Security:** Prevent unauthorized access and protect against fraud
-- **Moderation:** Enforce Terms of Service and maintain community standards
-- **Bot Improvement:** Analyze usage patterns to enhance features and performance (aggregated, anonymized data)
-- **Legal Compliance:** Retain records for potential legal or administrative purposes
-
-## 4. Data Storage and Security
-
-### 4.1 Where Your Data is Stored
-- **Primary Database:** Supabase PostgreSQL
-- **Infrastructure:** Data is hosted on secure cloud servers (Google Cloud, Oracle Cloud)
-- **Encryption:** Data is transmitted and stored with industry-standard security measures
-
+ 
+- **Service delivery:** maintain your game account, progress, collection and in-game economy
+- **Account security:** prevent unauthorized access, fraud, exploit abuse and multiple-account abuse
+- **Moderation:** enforce our Terms of Service and community standards
+- **Support:** handle purchase issues, account recovery and account ID transfers when a Discord account is lost or banned
+- **Bot improvement:** analyze usage patterns using aggregated data to improve features and performance
+- **Legal compliance:** keep records when required by law or to protect our legal rights
+We do not sell your personal data and do not use it for third-party advertising.
+ 
+## 4. Data Storage, Security and Retention
+ 
+### 4.1 Where Your Data Is Stored
+ 
+- **Primary database:** PostgreSQL running on a virtual private server operated by OVHcloud
+- **Backups:** encrypted-in-transit database backups are uploaded to Google Drive and kept for up to 30 days
+- **Card images and static assets:** Cloudflare R2 (these files contain no personal user data)
+- **Website hosting:** Vercel
+We use access controls, restricted administrative access and encrypted connections. No system is perfectly secure, but we take reasonable steps to protect your data.
+ 
 ### 4.2 Data Retention
-- **Active Users:** Data is retained for the duration of your account activity
-- **Inactive Accounts:** Data may be retained indefinitely for record-keeping and moderation purposes
-- **Blacklisted Users:** Account information is retained permanently to prevent evasion and inform future moderation decisions (see Terms of Service)
-
-## 5. Third-Party Access
-
-### 5.1 Data Sharing
-We do **not** share your personal data with third parties for marketing, advertising, or other commercial purposes.
-
-### 5.2 Infrastructure Providers
-Your data is processed through the following third-party services necessary for Bot operation:
-- **Discord (Discord Inc.):** Bot platform and user authentication
-- **Supabase:** Database hosting and management
-- **Google Cloud & Oracle Cloud:** VPS infrastructure and application hosting
-
-These providers are bound by data protection agreements and use your information solely to provide infrastructure services.
-
-### 5.3 Legal Obligations
-We may disclose information if required by law, court order, or to protect our legal rights.
-
-## 6. Your Privacy Rights
-
-### 6.1 Right to Access
-You have the right to request information about what data we hold about you.
-
-### 6.2 Right to Deletion
-**You can request complete deletion of your account and all associated data.** Upon request:
-- Your Discord ID, username, and all personal information will be permanently deleted from our database
-- Transaction history may be retained in aggregated, anonymized form for statistical purposes only
-- After deletion, you will not be able to recover your account or in-game progress
-
-To request deletion, contact the Bot operator through official Discord channels.
-
-### 6.3 Right to Correction
-You can request correction of inaccurate data through official channels.
-
+ 
+- **Active accounts:** data is kept while your account is active
+- **Inactive accounts:** data may be kept for record-keeping and moderation purposes
+- **Blacklisted users:** your Discord ID, username, account creation date and transaction history may be kept to prevent evasion and inform future moderation decisions (see the Terms of Service)
+- **Backups:** deleted data may remain in backups until they expire, up to 30 days
+- **Purchase records:** may be kept for as long as required by tax and accounting obligations
+## 5. Sharing and Third Parties
+ 
+We do **not** share your personal data with third parties for marketing, advertising or other commercial purposes.
+ 
+We use the following providers, which process data only to provide their services to us:
+ 
+- **Discord Inc.:** bot platform and user identity
+- **OVHcloud:** server hosting and database
+- **Google (Google Drive):** database backups
+- **Cloudflare:** image storage and delivery
+- **Vercel:** website hosting
+- **Mercado Pago and PayPal:** payment processing
+We may disclose information if required by law, court order, or to protect our legal rights or the safety of our users.
+ 
+## 6. Your Rights and Choices
+ 
+- **Access:** you can ask what data we hold about you.
+- **Correction:** you can ask us to correct inaccurate data. Many settings can be changed directly in the Bot.
+- **Deletion:** you can request deletion of your account and personal data. We will delete your Discord ID, username and personal data from our database. Transaction records may be kept in aggregated or anonymized form, and data needed for moderation (for example a blacklist entry) or legal obligations may be retained as described in section 4.2. After deletion you cannot recover your account or progress.
+- **Message content:** the Bot reads message content only as described in section 2.4. If you do not use prefix commands or active game rounds, your messages are not processed. Server administrators can restrict the Bot's channels using Discord's permission settings.
+To exercise these rights, contact us at **[contact@leeseobot.app]** or through our support server at **[https://discord.gg/tUqZMEyWY]**. We may need to verify that you own the account before acting on a request, and we aim to respond within 30 days.
+ 
+If you are in Brazil, you may also exercise the rights provided by the Lei Geral de Proteção de Dados (LGPD). If you are in the European Economic Area or the United Kingdom, you may have additional rights under local law.
+ 
 ## 7. Data Breach Protocol
-
-In the unlikely event of a data breach:
-- We will investigate the incident immediately
-- Affected users will be notified as soon as possible
-- We will implement measures to prevent future breaches
-- We will comply with applicable legal requirements
-
+ 
+If a data breach affecting your personal data occurs, we will investigate promptly, notify affected users as soon as reasonably possible, take steps to prevent it from happening again, and comply with applicable legal requirements.
+ 
 ## 8. Children's Privacy
-
-Leeseo Bot does not knowingly collect information from children under 13. If we become aware that a child has provided personal information, we will delete such data immediately and terminate the child's account.
-
-## 9. International Considerations
-
-If you access Leeseo Bot from outside your country of residence, your data may be transferred to and stored in countries other than your country of origin. By using the Bot, you consent to this transfer.
-
-## 10. Modifications to This Policy
-
-This Privacy Policy may be updated at any time. Continued use of the Bot after modifications constitutes acceptance of the updated policy. We will notify users of significant changes.
-
-## 11. Contact Us
-
-For privacy concerns, data access requests, or deletion requests, contact the Bot operator through official Discord channels or documentation.
-
+ 
+Leeseo is intended for users who meet Discord's minimum age requirement. We do not knowingly collect information from children under 13. If we learn that a child under 13 has provided personal information, we will delete it and may remove the account.
+ 
+## 9. International Transfers
+ 
+Our providers may process data in countries other than your own. By using Leeseo, you understand that your data may be transferred to and stored in other countries.
+ 
+## 10. Changes to This Policy
+ 
+We may update this Privacy Policy. When we make significant changes, we will announce them in our support server or in the Bot and update the date at the top. Continued use of the Bot after changes means you accept the updated policy.
+ 
+## 11. Contact
+ 
+For privacy questions, data access requests or deletion requests:
+ 
+- Email: **[contact@leeseobot.app]**
+- Support server: **[https://discord.gg/tUqZMEyWY]**
 ---
-
-**By using Leeseo Bot, you acknowledge that you have read and understood this Privacy Policy and consent to the collection and use of your information as described herein.**
+ 
+By using Leeseo, you acknowledge that you have read and understood this Privacy Policy.
