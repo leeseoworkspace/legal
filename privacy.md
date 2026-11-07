@@ -47,7 +47,7 @@ If you buy items or currency with real money, payment is handled by our payment 
 
 You can log in to our website with your Discord account. When you do, we receive your Discord ID, username and avatar, which we use to identify your game account and show it to you. We use a session cookie to keep you logged in. We do not store your IP address in our own database.
 
-We use third-party monitoring services (Cloudflare Analytics and Google Analytics) to keep the website and the Bot running and to detect errors. These services may process technical data, such as IP addresses and browser information, in their own logs for that purpose. We do not use this data for advertising.
+We use Cloudflare Analytics and Google Analytics to understand how the website is used and to detect errors. Google Analytics uses cookies and may process IP addresses and browser information on Google's servers. We do not use this data for advertising. You can block analytics cookies in your browser settings or with a browser extension.
 
 ### 2.7 What We Do NOT Collect
  
@@ -103,7 +103,7 @@ We may disclose information if required by law, court order, or to protect our l
 - **Correction:** you can ask us to correct inaccurate data. Many settings can be changed directly in the Bot.
 - **Deletion:** you can request deletion of your account and personal data. We will delete your Discord ID, username and personal data from our database. Transaction records may be kept in aggregated or anonymized form, and data needed for moderation (for example a blacklist entry) or legal obligations may be retained as described in section 4.2. After deletion you cannot recover your account or progress.
 - **Message content:** the Bot reads message content only as described in section 2.4. If you do not use prefix commands or active game rounds, your messages are not processed. Server administrators can restrict the Bot's channels using Discord's permission settings.
-To exercise these rights, contact us at **[contact@leeseobot.app]** or through our support server at **[https://discord.gg/tUqZMEyWY]**. We may need to verify that you own the account before acting on a request, and we aim to respond within 30 days.
+To exercise these rights, contact us at **contact@leeseobot.app** or through our support server at **https://discord.gg/tUqZMEyWY**. We may need to verify that you own the account before acting on a request, and we aim to respond within 30 days.
  
 If you are in Brazil, you may also exercise the rights provided by the Lei Geral de Proteção de Dados (LGPD). If you are in the European Economic Area or the United Kingdom, you may have additional rights under local law.
  
@@ -127,8 +127,8 @@ We may update this Privacy Policy. When we make significant changes, we will ann
  
 For privacy questions, data access requests or deletion requests:
  
-- Email: **[contact@leeseobot.app]**
-- Support server: **[https://discord.gg/tUqZMEyWY]**
+- Email: **contact@leeseobot.app**
+- Support server: **https://discord.gg/tUqZMEyWY**
 ---
  
 By using Leeseo, you acknowledge that you have read and understood this Privacy Policy.
